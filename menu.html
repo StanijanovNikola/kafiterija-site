@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="firstProject.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <title>Document</title>
+</head>
+<body>
+    
+    <!--Navbar-->
+    <header class="header">
+        <div class="logo">
+            <a href="firstProject.html">
+                <img src="./images/logo.jpg" alt="Logo">
+            </a>
+        </div>
+        <nav class="navbar">
+            <ul class="navbarList">
+                <li class="li"><a href="firstProject.html">HOME</a> </li>
+                <li class="li"><a class="dropdownMenuOnHover" href="menu.html">MENU</a> </li>
+                <li class="li"><a href="contact.html">CONTACT</a> </li>
+                <li class="li"><a href="About.html">ABOUT</a> </li>
+            </ul>
+        </nav>
+        
+        <div class="burger-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+    </header>
+    <!--Navbar-->
+<!--Dropdown Menu-->
+<div class="dropdownMenuParent">
+    <div class="dropdownBox">
+        <a class="dropdownMenuImgParent" href="#"><img class="dropdownImg" src="./images/CoffeeDropdown.jpg" alt=""></a>
+        <h4>Coffee</h4>
+    </div>
+    <div class="dropdownBox">
+        <a class="dropdownMenuImgParent" href="#"><img class="dropdownImg" src="./images/TeaDropdown.jpg" alt=""></a>
+        <h4>Tea</h4>
+    </div>
+    <div class="dropdownBox">
+        <a class="dropdownMenuImgParent" href="#"><img class="dropdownImg" src="./images/ChockolateDropdown.png" alt=""></a>
+        <h4>Chockolate</h4>
+    </div>
+    <div class="dropdownBox">
+        <a class="dropdownMenuImgParent" href="#"><img class="dropdownImg" src="./images/JuicesDropdown.jpg" alt=""></a>
+        <h4>Juces</h4>
+    </div>
+
+</div>
+ <!--Dropdown Menu-->
+
+ <div class="coffeeMenu">
+     <img src="./images/coffeeMenu.jpg" alt="">
+     <h1 class="headerOfMenuImg">Kafa i proizvodi kojima ne mozes odoleti</h1>
+ </div>
+
+
+ <section class="menuParentOfElements">
+     
+     <div class="allElements">
+         <div class="coffeeItems">
+
+         </div>
+         <div class="teaItems">
+
+         </div>
+         <div class="chockolateItems">
+
+         </div>
+         <div class="juiceItems"> 
+
+         </div>
+
+     </div>
+ </section>
+
+ <div class="sort">
+    <div class="inputSortingProductsParent">
+        <label for="sort" class="inputLabelProducts">Choose the product</label>
+        <div class="inputWithDropdown">
+            <input type="text" id="sort" placeholder="Coffee" class="productsInput">
+            <ul class="dropdownProducts hidden">
+                <li data-value="Coffee">Coffee</li>
+                <li data-value="Tea">Tea</li>
+                <li data-value="Chockolate">Chockolate</li>
+                <li data-value="Juices">Juices</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="inputSortingbyPriceOrStreinght">
+        <label for="sort" class="inputLabelSort">Sort by:</label>
+        <div class="inputWithDropdown">
+            <input type="text" id="sort" placeholder="All" class="sortingInput">
+            <ul class="dropdownSortBy sortHidden">
+                <li data-value="All">All</li>
+                <li data-value="Higher price first">Higher price first</li>
+                <li data-value="Lower Price First">Lower price first</li>
+                <li data-value="Strenght">By strenght</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+<section class="productsParent">
+   
+    
+
+</section>
+<div class="pagination">
+     <!-- <li class="pageItem previousPage"><a href="#" class="pageLink" data-value="prev">Prev</a></li> 
+     <div class="pages">
+        <li class="pageItem currentPage"><a href="#" class="pageLink" data-value="1">1</a></li>
+        <li class="pageItem currentPage"><a href="#" class="pageLink" data-value="2">2</a></li>
+        <li class="pageItem currentPage"><a href="#" class="pageLink" data-value="3">3</a></li>
+        <li class="pageItem currentPage"><a href="#" class="pageLink" data-value="4">4</a></li> 
+     </div>
+     
+    <li class="pageItem nextPage"><a href="#" class="pageLink" data-value="next">Next</a></li>  -->
+</div> 
+
+<!-- <div class="pagination">
+    <button class="prevBtn">Prev</button>
+  
+    <div class="pageNumbers"></div>
+
+  
+    <button class="nextBtn">Next</button>
+  </div>
+ -->
+
+ <footer class="footer">
+    <div class="footerContainer"> 
+        <div class="socialIcons">   
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+            <a href=""><i class="fa-brands fa-google-plus"></i></a>
+            <a href=""><i class="fa-brands fa-youtube"></i></a>
+        </div>
+        <div class="footerNav">
+            <ul class="footerNavigation">
+                <li><a href="#">HOME</a></li>
+                <li><a href="/menu.html">MENU</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+                <li><a href="#">ABOUT</a></li>
+            </ul>
+        
+</footer>
+
+
+    <script src="menu.js" defer></script>
+
+</body>
+</html>
