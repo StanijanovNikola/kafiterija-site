@@ -13,13 +13,6 @@
   --white: #fff;
 }
 
-.bgpicture {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  z-index: -100;
-}
-
 body {
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   overflow-x: hidden;
